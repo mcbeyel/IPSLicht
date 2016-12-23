@@ -1,0 +1,21 @@
+{
+  "elements": [
+    {
+      "name": "Instanz",
+      "type": "SelectInstance",
+      "caption": "Instanz"
+    },
+    {
+      "name": "AutoOff",
+      "type": "NumberSpinner",
+      "caption": "Auto-Off (Minuten)"
+    },
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "label": "Schalter aktualisieren",
+      "onClick": "LICHT_Update($id)"
+    },
+  ],
+}
